@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>buymee</title>
+  <link rel="stylesheet" type="text/css" href="includes/style.css">
+</head>
+<body>
+<div id="container">
+  <div id="header">
+  <h1>BUYMEE</h1>
+    
+  </div>
+  <div id="main">
+    <div class="box" id="boxes">
+       <h3>Resume Form</h3>
+         <form action="insert_resume.php" method="POST">
+            <div class="contact_box1">
+              <input type="text" class="text" 
+              value="userid" placeholder="USER ID" name="userid" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'userid';}">
+            </div>
+            <div class="text_1">
+               <textarea value="WorkExperience" name="workexperience" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Work Experience</textarea>
+            </div>
+            <div class="text_1">
+               <textarea value="skills" name="skills" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Skills';}">Skills</textarea>
+            </div>
+            <div class="text_1">
+               <textarea value="education" name="education" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Education</textarea>
+            </div>
+            <div class="text_1">
+               <textarea value="personalinfo" name="personal" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Personal Info</textarea>
+            </div>
+            <div class="text_1">
+               <textarea value="References" name="references" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">References</textarea>
+            </div>
+            <div class="form-submit1 form_but1">
+             <input name="submit" type="submit" id="submit" value="Submit"><br>
+            </div>
+            <div class="clearfix"></div>
+          </form>
+    </div>
+  </div>
+  <div id="footer">
+    Copyright &copy; 2017 Team Buymee
+  </div>
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>buymee</title>
+  <link rel="stylesheet" type="text/css" href="includes/style.css">
+</head>
+<body>
+<div id="container">
+  <div id="header">
+  <h1>BUYMEE</h1>
+    
+  </div>
+  <div id="content">
+    <div class="menubar">
+    <div id="nav">
+    </div>
+    </div>
+    <div id="main">
+      <div class="box" id="boxes" >
+        <h1>Sign Up for Free</h1>
+        <form action="insert_reg.php" method="POST">
+  <table>
+    <tr>
+      <td>NAME</td>
+      <td><input type="text" name="name" required="YES" /></td>
+    </tr>
+    <tr>
+      <td>USERID</td>
+      <td><input type="text" name="userid" required="YES" /></td>
+    </tr>
+    <tr>
+      <td>DOB</td>
+      <td><input type="date" name="dob" required="YES" /></td>
+    </tr>
+    <tr>
+      <td>ADDRESS</td>
+      <td><input type="text" name="address" required="YES" /></td>
+    </tr>
+    <tr>
+      <td>EMAIL</td>
+      <td><input type="email" name="email" required="YES" /></td>
+    </tr>
+    <tr>
+      <td>GENDER</td>
+      <td><input type="radio" name="gender" value="male"/>M<input type="radio" name="gender" value="female"/>F</td>
+    </tr>
+    <tr>
+      <td>PASSWORD</td>
+      <td><input type="password" name="password" required="YES" /></td>
+    </tr>
+    <tr>
+      <!--<td>PLEASE UPLOAD YOUR RESUME</td>
+      <td><input type="file" name="file" required="" /></td>
+    </tr>-->
+
+    </tr>
+      <td><input type="submit" value="Register" /></td><td><input type="Reset" /></td>
+    </tr>
+  </table>
+  <a href="loginpage.php">Are you already Registered ?</a>
+  <a href="resume_insert.html">Or tell us about Yourself....</a>
+  </form>
+    </div>
+  </div>
+  <div id="footer">
+    Copyright &copy; 2017 Team Buymee
+  </div>
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.box
+{
+height: 558px;
+width: 300px;
+border: 2px solid black;
+float: right; 
+}
+
+button
+{
+	background-color: #3597e8;
+	color: white;
+	align-self: center;
+}
+
+h3
+{
+	border: 2px solid black;
+	float: right;
+	color: #55e835;
+	border-width: 20px;
+}
+
+body
+{
+	font-family: Helvetica,Arial,sans-serif;
+	padding: auto;
+	background-color: white;
+}
+
+#header
+{
+
+	background-color: #f46b42;
+	font-size: 32px;
+	text-align: center;
+	color: white;
+}
+
+#container
+{
+	background-color: white;
+	width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#middle
+{
+	font-size: 15px;
+	clear: both;
+}
+
+#ques
+{
+	font-size: 20px;
+	background-color: #a0beef;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ans
+{
+	font-size: 20px;
+	background-color: #efeda0;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
